@@ -1,3 +1,11 @@
+/*
+
+  Sample code to receive serial data from an Arduino hooked up to a 
+  Memsic 2125 accelerometer. 
+  
+
+*/
+
 // import and set up serial connection to the Arduino
 import processing.serial.*;
 Serial port;
