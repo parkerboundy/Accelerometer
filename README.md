@@ -3,7 +3,7 @@
 
 ![Accelerometer Sketch](http://media.tumblr.com/tumblr_ltznrfFEQ01qfbgo0.png)
 
-## These sample sketches will get you up and running using a [Parallax Memsic 2125 accelerometer](http://www.parallax.com/tabid/768/ProductID/93/Default.aspx). 
+### These sample sketches will get you up and running using a [Parallax Memsic 2125 accelerometer](http://www.parallax.com/tabid/768/ProductID/93/Default.aspx). 
 
 * Arduino_Accelerometer.pde takes the X and Y input from the accelerometer and sends them out in a serial connection.
 
@@ -13,4 +13,4 @@
 ![Arduino](http://media.tumblr.com/tumblr_ltzn0aMT9s1qfbgo0.png)
 ![Processing](http://media.tumblr.com/tumblr_ltzoy47U9y1qfbgo0.png)
 
-### [I have done a write up about the code at my website parkerboundy.com](http://parkerboundy.com/post/12199482712/memsic-2125-arduino-and-processing)
+#### I have done a write up about the code [on my website](http://parkerboundy.com/post/12199482712/memsic-2125-arduino-and-processing)
