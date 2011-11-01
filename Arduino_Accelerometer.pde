@@ -1,3 +1,12 @@
+/*
+
+  Sample code to read inputs from the Memsic 2125 accelerometer.
+  
+  This is based off of the code by David A. Mellis and Tom Igoe
+  http://arduino.cc/en/Tutorial/Memsic2125?from=Tutorial.AccelerometerMemsic2125
+
+*/
+
 // these constants won't change:
 const int xPin = 2;		// X output of the accelerometer
 const int yPin = 3;		// Y output of the accelerometer
@@ -26,7 +35,7 @@ void loop() {
   accelerationX = map(pulseX, 3700, 6350, 0, 500);
   accelerationY = map(pulseY, 3700, 6350, 0, 500);
   
-  // send the accelerometer to Processing through serial connection
+  // send the accelerometer data to Processing through serial connection
   Serial.print(accelerationX);
   Serial.print(",");
   Serial.print(accelerationY);
